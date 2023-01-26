@@ -1,4 +1,5 @@
 import React from "react";
+import './Experience.scss';
 
 const Education = ({ education }) => {
   console.log(education);

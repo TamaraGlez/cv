@@ -10,7 +10,7 @@ import { CV } from "./CV/CV";
 function App() {
   //destruccturing de cv
   const { hero, education, experience, habilities } = CV;
-  const [mostrar, setMostrar] = useState('About')
+  const [mostrar, setMostrar] = useState('Hero')
   console.log(mostrar)
   return (
     <div>
@@ -19,13 +19,11 @@ function App() {
         <button type="button" onClick={() => setMostrar("About")}>Sobre mi</button>
         <button type="button" onClick={() => setMostrar("Education")}>Educación</button>
         <button type="button" onClick={() => setMostrar("Experience")}>Experiencia</button>
+        <button type="button" onClick={() => setMostrar("Habilities")}>Habilidades</button>
         {mostrar === 'About' && <About about={hero.aboutMe}/>}
-        {mostrar === 'Educacion' && <Education education={education}/>}
+        {mostrar === 'Education' && <Education education={education}/>}
         {mostrar === 'Experience' && <Experience experience={experience}/>}
-        
-        <Habilities habilities={habilities}/>
-
-  
+        {mostrar === 'Habilities' && <Habilities habilities={habilities}/>}
       </div>
     </div>
   );

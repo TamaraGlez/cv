@@ -1,4 +1,5 @@
 import React from 'react'
+import './Habilities.scss';
 
 const Habilities = ({ habilities }) => {
   console.log(habilities)
