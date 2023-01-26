@@ -5,20 +5,20 @@ export const CV = {
     city: "Málaga",
     email: "tamara.g.ruiz@gmail.com",
     phone: "767333841",
-    image: "",
+    image: "/asset/Tamara1.jpeg",
     gitHub: "",
     aboutMe: [
       {
         info: "Lorem Ipsum is simply dummy text of the printing.",
       },
       {
-        info: "Lorem Ipsum is simply dummy text of the printing.",
+        info: "sum is simply dummy text of the printing.",
       },
       {
-        info: "Lorem Ipsum is simply dummy text of the printing.",
+        info: "Ls simply dummy text of the printing.",
       },
       {
-        info: "Lorem Ipsum is simply dummy text of the printing.",
+        info: "Simply dummy text of the printing.",
       },
     ],
   },

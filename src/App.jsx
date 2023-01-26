@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { useState } from "react";
 import "./App.scss";
 import About from "./components/About";
 import Education from "./components/Education";
@@ -10,15 +10,20 @@ import { CV } from "./CV/CV";
 function App() {
   //destruccturing de cv
   const { hero, education, experience, habilities } = CV;
-  // const [mostrar, setMostrar] = useState('About')
+  const [mostrar, setMostrar] = useState('About')
+  console.log(mostrar)
   return (
     <div>
       <div className="App">
         <Hero hero={hero} />
-        <About about={hero.aboutMe} />
-        <Education education={education}/>
-        <Experience/>
-        <Habilities/>
+        <button type="button" onClick={() => setMostrar("About")}>Sobre mi</button>
+        <button type="button" onClick={() => setMostrar("Education")}>Educación</button>
+        <button type="button" onClick={() => setMostrar("Experience")}>Experiencia</button>
+        {mostrar === 'About' && <About about={hero.aboutMe}/>}
+        {mostrar === 'Educacion' && <Education education={education}/>}
+        {mostrar === 'Experience' && <Experience experience={experience}/>}
+        
+        <Habilities habilities={habilities}/>
 
   
       </div>
@@ -27,4 +32,3 @@ function App() {
 }
 
 export default App;
-{/* <button type="button" onClick={() => setMostrar("About")}>sobre mi</button> */}

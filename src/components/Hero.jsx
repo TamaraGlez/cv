@@ -10,7 +10,7 @@ const Hero = ({hero}) => {
       <p>{hero.email}</p>
       <p>{hero.birthDate}</p>
       <p>{hero.phone}</p>
-      <p>{hero.image}</p>
+      <img src= {hero.image} alt = "imagen"/>
       <p>{hero.gitHub}</p>
     </div>
   )
