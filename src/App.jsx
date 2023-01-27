@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.scss";
 import About from "./components/About";
 import Education from "./components/Education";
@@ -6,12 +6,17 @@ import Experience from "./components/Experience";
 import Habilities from "./components/Habilities";
 import Hero from "./components/Hero";
 import { CV } from "./CV/CV";
+import { setHero } from "./redux/hero/hero.actions";
 
 function App() {
   //destruccturing de cv
   const { hero, education, experience, habilities } = CV;
   const [mostrar, setMostrar] = useState('Hero')
   console.log(mostrar)
+
+  useEffect(()=>{
+    setHero(hero);
+  }, [hero]);
   return (
     <div>
       <div className="App">

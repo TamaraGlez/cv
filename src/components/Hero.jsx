@@ -1,8 +1,12 @@
 import React from 'react'
+import { useSelector } from 'react-redux';
 import './Hero.scss';
 
-const Hero = ({hero}) => {
+const Hero = () => {
+
+  const {hero} = useSelector (state => state.hero)
   console.log(hero)
+
   return (
     <div>
       <img className= "imagenTam" src= {hero.image} alt = "imagen"/>
