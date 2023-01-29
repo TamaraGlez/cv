@@ -3,24 +3,35 @@
 }
 
 h3{
-  margin-top: 0;
+  margin-top: 5px;
+}
+p{
+  margin-top: 16px;
 }
 .button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
   justify-content: center;
 
+
   &-btn {
+    width: 90px;
+    height: 26px;
     color: #fff !important;
-    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
     font-weight: 500;
-    background: #82af2a;
+    background: #83af2a00;
     border: 1px solid;
-    border-color: whitesmoke;
+    border-color: #83af2aa1;
     position: relative;
     border-radius: 30px;
-    margin: 16px;
+    margin: 5px 10px 5px 10px;
+
+    cursor: pointer;
   }
 
   &-btn:before {
@@ -31,8 +42,8 @@ h3{
     left: 0px;
     width: 0px;
     height: 100%;
-    background: rgba(255, 255, 255, 0.392);
     transition: all 1s ease;
+    background: rgba(245, 245, 245, 0.228)
   }
 
   &-btn:hover::before {

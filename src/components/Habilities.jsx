@@ -4,7 +4,7 @@ import './Habilities.scss';
 const Habilities = ({ habilities }) => {
   console.log(habilities)
   return (
-    <div>
+    <div className='containerHab' >
       {habilities.map((hab, index)=> {
         return (
           <div key = {index}>

@@ -6,23 +6,43 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+&-containterImg´{
+    width: 50%;
+}
+&-name {
+    width: 70px;
+    height: 122px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left
 
+}
 
+&-nombreTam {
+    width: 5%;
+    text-align: initial ;
+    font-size: 18px;
+    padding-left: 16px;
+    line-height: 1.8;
 
-&-imagenTam {
-    width: 120px;
-    height: 150px;
-    border-radius: 50px 0px 50px 0px;
-    border-color: whitesmoke;
-    border-width: 2px;
+} 
+
+&-imgTam {
+    width: 70px;
+    height: 85px;
+    border-radius: 20px 0px 20px 0px;
+    border: 1px solid;
+    border-color: #83af2aa1;
     border-style: solid;
     object-fit: contain;
 };
-
+&
 &-datePersonals {
     margin-left: 16px;
     text-align: initial;
-    line-height:normal
+    line-height: 0.5;
 }
 
 }

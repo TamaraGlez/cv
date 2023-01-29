@@ -1,24 +1,31 @@
 export const CV = {
   hero: {
     name: "Tamara González Ruiz",
-    adress: "Sobrevela 1, nº4",
-    city: "Málaga",
-    email: "tamara.g.ruiz@gmail.com",
-    phone: "767333841",
     image: "/asset/Tamara1.jpeg",
-    gitHub: "https://github.com/TamaraGlez",
+    contact: [
+      {
+      city: "Viviendo entre Málaga y Cádiz",
+      email: "tamara.g.ruiz@gmail.com",
+      phone: "233 36 96 48",
+      gitHub: "https://github.com/TamaraGlez",
+      linkedin: "https://www.linkedin.com/in/tamarapuntossuspensivos", 
+      }
+    ],
     aboutMe: [
       {
-        info: "Amante de los retos y la superación, nuevo reto: Full Stack Developer en Upgrade Hub.",
+        info: "Amante de los retos y la superación",
+      },
+      {
+        info: "Nuevo Reto: Full Stack Developer en Upgrade Hub.",
       },
       {
         info: "Expresar, comunicar a través de la experiencia visual",
       },
       {
-        info: "La naturaleza, aire libre y deporte mi recarga de energia.",
+        info: "Aficionada a todo lo relacionado al mar.",
       },
       {
-        info: "Aficionada a todo lo relacionado al mar deportes, navegación.",
+        info: "La familia, amigos, naturaleza, aire libre y deporte mi recarga de energia.",
       },
     ],
   },
