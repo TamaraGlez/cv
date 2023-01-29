@@ -1,8 +1,31 @@
-.imagenTam {
-    width: 200px;
-    border-radius: 10px 0px 10px 0px;
-    padding-top: 26px;
-    border-color:whitesmoke;
-    border-width: 1px;
+.hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+&-imagenTam {
+    width: 120px;
+    height: 150px;
+    border-radius: 50px 0px 50px 0px;
+    border-color: whitesmoke;
+    border-width: 2px;
     border-style: solid;
+    object-fit: contain;
+};
+
+&-datePersonals {
+    margin-left: 16px;
+    text-align: initial;
+    line-height:normal
 }
+
+}
+
+
+

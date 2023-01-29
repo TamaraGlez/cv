@@ -4,10 +4,10 @@ import './Experience.scss';
 const Experience = ({ experience }) => {
   console.log(experience)
   return (
-    <div>
+    <div className="containerExp">
       {experience.map((expe, index)=> {
         return (
-          <div key={index}>
+          <div key={index} className="containerExp-text">
             <h3>{expe.name}</h3>
             <p>{expe.date}</p>
             <p>{expe.where}</p>

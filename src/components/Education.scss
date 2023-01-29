@@ -1,0 +1,21 @@
+
+.containerEdu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+
+    &-text {
+    border-top: 1px solid;
+    border-color:#82af2a;
+    margin: 16px;
+    width: 30%;
+    }
+
+    &-text:hover {
+        border-top: 1px solid;
+        border-color: whitesmoke
+      }
+}

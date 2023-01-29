@@ -1,6 +1,41 @@
 .App {
   text-align: center;
-
 }
 
+h3{
+  margin-top: 0;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
+  &-btn {
+    color: #fff !important;
+    padding: 10px 20px 10px 20px;
+    font-weight: 500;
+    background: #82af2a;
+    border: 1px solid;
+    border-color: whitesmoke;
+    position: relative;
+    border-radius: 30px;
+    margin: 16px;
+  }
+
+  &-btn:before {
+    content: "";
+    position: absolute;
+    border-radius: 30px;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.392);
+    transition: all 1s ease;
+  }
+
+  &-btn:hover::before {
+    width: 100%;
+  }
+}
