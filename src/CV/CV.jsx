@@ -6,45 +6,51 @@ export const CV = {
     email: "tamara.g.ruiz@gmail.com",
     phone: "767333841",
     image: "/asset/Tamara1.jpeg",
-    gitHub: "",
+    gitHub: "https://github.com/TamaraGlez",
     aboutMe: [
       {
-        info: "Lorem Ipsum is simply dummy text of the printing.",
+        info: "Amante de los retos y la superación, nuevo reto: Full Stack Developer en Upgrade Hub.",
       },
       {
-        info: "sum is simply dummy text of the printing.",
+        info: "Expresar, comunicar a través de la experiencia visual",
       },
       {
-        info: "Ls simply dummy text of the printing.",
+        info: "La naturaleza, aire libre y deporte mi recarga de energia.",
       },
       {
-        info: "Simply dummy text of the printing.",
+        info: "Aficionada a todo lo relacionado al mar deportes, navegación.",
       },
     ],
   },
   education: [
     {
-      name: "Gráfica Publicitaría",
-      date: "2000",
+      name: "Técnica Superior en Artes Aplicadas y Diseño Gráfico",
+      date: "2010",
       where: "Escuela de arte Algeciras",
     },
     {
-      name: "Administración de empresas",
-      date: "2000",
+      name: "Técnica de Formación Profesional en Gestión Administrativa",
+      date: "2006",
       where: "I.E.S Mediterráneo",
     },
   ],
 
-  unregulatedStudies: [
+  more: [
     {
-      name: "September Foundation",
-      where: "MIT",
+      name: "Curso Community Manager",
+      time: "280h",
       description:
         "The September Foundation is a program by Tony Stark to fund schools and young prodigies in their education. The foundation was named by Stark after a lyric from The Fantasticks song, 'Try to Remember,' which he heard his mother sing and play on the piano before her death.",
     },
     {
-      name: "Damage Control",
-      where: "U.S.A.",
+      name: "FPO Preparador y Maquetación de textos",
+      time: "800h",
+      description:
+        "The September Foundation is a program by Tony Stark to fund schools and young prodigies in their education. The foundation was named by Stark after a lyric from The Fantasticks song, 'Try to Remember,' which he heard his mother sing and play on the piano before her death.",
+    },
+    {
+      name: "Seminario Marqueting de Guerrilla para emprendedores",
+      time: "200h",
       description:
         "The United States Department of Damage Control, occasionally known as the DODC, is a department of the United States of America. Initially a subsidiary of S.H.I.E.L.D., Damage Control was an organization specializing in post-battle clean-up. Following the Battle of New York, Damage Control was made into an executive branch of the United States government, and in a joint venture with Stark Industries, was tasked with acquiring alien and other dangerous artifacts along with cleaning up damages caused by enhanced individuals.",
     },

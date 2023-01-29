@@ -12,3 +12,4 @@ const rootReducer = combineReducers({
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)));
 
 export default store;
+//aqui sólo añadimos en rootReducer los redux que cremos como heroReducer

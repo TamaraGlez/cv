@@ -11,3 +11,4 @@ export const heroReducer = (state = INITAL_STATE, action) => {
             return state;
     }
 };
+//es eo estado inicial, realmente es un objeto
